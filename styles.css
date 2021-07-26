@@ -1,0 +1,129 @@
+html,
+body {
+  height: 99%;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.4;
+}
+
+#brochure {
+  display: flex;
+  height: 100%;
+  border: 1px solid lightgray;
+}
+
+#brochure > div {
+  width: 33%;
+  text-align: center;
+}
+
+/* Column 1 CSS */
+
+.column-1 {
+  flex-direction: column;
+}
+
+.cell-1 {
+  margin-top: 130px;
+  font-size: 53px;
+  text-decoration: underline;
+}
+
+.cell-2 {
+  margin-top: 50px;
+  font-size: 33px;
+  font-weight: 100;
+}
+
+.cell-3 {
+  margin-top: 70px;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+#tree-branch {
+  margin-left: -45px;
+  width: 390px;
+}
+
+/* Start of Column 2 CSS */
+
+.column-2 {
+  flex-direction: column;
+  border-right: 14px solid;
+  border-left: 14px solid;
+}
+
+.cell-4 {
+  margin-top: 30px;
+}
+
+#flag {
+  width: 420px;
+}
+
+.cell-5 {
+  margin-top: 20px;
+  font-size: 55px;
+  text-decoration: underline;
+}
+
+.cell-6 {
+  margin-top: 40px;
+  margin-left: 10px;
+  text-align: left;
+  color: rgb(74, 85, 85);
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+/* Start of Column 3 CSS */
+
+.column-3 {
+  flex-direction: column;
+}
+
+.cell-7 {
+  margin-top: 20px;
+}
+
+#vit-logo {
+  width: 190px;
+}
+
+.cell-8 {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-top: 14px solid;
+  border-bottom: 14px solid;
+  padding: 5px 0px 5px 00px; /* top right bottom left */
+  font-family: 'Arial Black', sans-serif;
+  letter-spacing: normal;
+  font-size: 53px;
+  font-weight: 900;
+}
+
+.cell-9 {
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: left;
+  color: rgb(74, 85, 85);
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.cell-10 {
+  margin-top: 120px;
+  margin-left: 15px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#table-photos {
+  margin-right: 15px;
+  width: 420px;
+}
